@@ -1,0 +1,198 @@
+.colorheader {
+
+    width: 70PX;
+    height: 70PX;
+    background-color: papayawhip;
+
+}
+
+.colornav {
+
+    width: 70PX;
+    height: 70PX;
+    background-color: green;
+
+}
+
+.colormain {
+
+    width: 70PX;
+    height: 70PX;
+    background-color: red;
+
+}
+
+.coloraside {
+
+    width: 70PX;
+    height: 70PX;
+    background-color: blue;
+
+}
+
+.colorfooter {
+
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(0, 191, 255);
+
+}
+
+
+
+header {
+
+    background-color: papayawhip;
+}
+
+nav {
+
+    background-color: green;
+
+}
+
+main {
+
+    background-color: red;
+
+}
+
+aside {
+
+    background-color: blue;
+}
+
+footer {
+
+    background-color: rgb(0, 191, 255);
+
+}
+
+.colorh1 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(255, 0, 128);
+
+}
+
+.colorh2 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(242, 255, 0);
+
+}
+
+.colorh3 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(255, 98, 0);
+
+}
+
+h1 {
+
+    background-color: rgb(255, 0, 128);
+
+}
+
+h2 {
+
+    background-color: rgb(242, 255, 0);
+}
+
+
+h3 {
+
+    background-color: rgb(255, 98, 0);
+
+
+}
+
+
+.colorsection1 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(163, 136, 120);
+
+}
+
+.colorsection2 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(140, 150, 81);
+
+}
+
+.colorarticle {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(139, 84, 50);
+
+}
+
+.colorarticle1 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(183, 0, 255);
+
+}
+
+.colorarticle2 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgb(221, 73, 166);
+
+}
+
+#home {
+
+
+    background-color: rgb(163, 136, 120);
+
+}
+
+#about {
+
+
+    background-color: rgb(140, 150, 81);
+
+}
+
+.colorarticle {
+
+
+
+    background-color: rgb(139, 84, 50);
+
+
+}
+
+.colorarticle1 {
+
+
+
+    background-color: rgb(183, 0, 255);
+
+
+}
+
+.colorarticle2 {
+
+
+
+    background-color: rgb(221, 73, 166);
+
+
+}
+
+.colorsection1 {
+
+    background-color: rgb(163, 136, 120);
+
+}
+
+.colorsection2 {
+
+
+    background-color: rgb(140, 150, 81);
+}
