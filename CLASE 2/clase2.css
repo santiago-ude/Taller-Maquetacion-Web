@@ -1,0 +1,36 @@
+html{
+
+    box-sizing: border-box;
+}
+
+:root{
+
+--colorPrimario: rgb(0, 0, 255);
+--colorSecundario: rgb(0, 255, 123);
+--colorTerciario: rgb(244, 2, 2);
+}
+
+.main {
+    background-color: var(--colorSecundario);
+    height: 300px;
+    width: 100%;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.contenedor {
+
+    background-color: var(--colorTerciario);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+    padding: 20px 5px;
+}
+
+
+
+.h1line {
+    display: inline;
+}
