@@ -1,0 +1,45 @@
+.encabezado {
+
+    background-color: rgb(40, 142, 201);
+    padding: 50px;
+
+}
+
+.white-font {
+
+    color: rgb(221, 220, 220);
+}
+
+
+.linki {
+
+    background-color: rgb(221, 220, 220);
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.linki:hover {
+
+
+    border-radius: 10px;
+    background-color: rgb(40, 142, 201);
+
+}
+
+.linkAprendeMas {
+
+    color: rgb(40, 142, 201);
+    text-decoration: none;
+
+}
+
+
+.hero {
+
+    margin: auto;
+    text-align: center;
+}
