@@ -1,0 +1,256 @@
+CURSO MAQUETACION HTML-CSS-JS-ANGULAR
+
+HTML:
+Sin HTML no hay pagina web
+Sin html--> no hay que maquetar
+
+HTML: hyperText markup language (lenguaje de marcas de hipertexto)
+
+~Arbol de etiquetas:
+~Es un lenguaje, no es un lenguaje de programacion
+~Pertenece al paradigma declarativo
+
+ETIQUETAS DE ESTRUCTURA
+
+<aside>: contenido relacionado al principal
+<nav>: (de lo mas importante) menu de navegacion
+<header>: encabezado del sitio o elemento
+<main>: contenido principal, es lo que va a indexar google
+<section> y <article>: contenido secundario
+<footer>: pie de pagina
+<div>: contenedor generico
+
+<meta charset="UTF-8">
+~tiene un atributo (charset)
+
+--------------------------------<head>--------------------------------------
+
+    ~Metadatos:
+    ~El 95% de los sitios web usan "UTF-8" <meta charset="UTF-8">~
+
+    ~Responsive:
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    ~SEO:
+    <meta name="description" content="Descripcion de la pagina">
+    <meta name="keywords" content="HTML-CSS-JS-ANGULAR">
+
+    <meta name="author" content="Gabriel Chaldu">
+
+
+    ~Title
+    <title>Mi primera pagina</title>: titulo de la pagina
+
+    ~Estilos:
+    <link rel="stylesheet" href="style.css">
+
+    ~JS
+    <script src="js"></script>
+
+    ~Recursos externos:
+    <link rel="stylesheet" href="tipografia de google">
+
+    ~Icon page
+
+    <link rel="icon" href="link de icono">
+
+--------------------------------<body>--------------------------------------
+
+    ~contenido visible de la pagina web
+    .texto
+    .imagenes
+    .videos, enlaces(botones)
+    .formularios(contacto, registro, carga,etc)
+    .otros elementos interactivos
+
+<p>: parrafo
+<strong>: negrita
+<em>: enfasis, cursiva creo
+
+    ~mayor numero menor imporancia...
+
+<h1>: Titulo principal (mas importante) -SOLO 1 POR PAGINA-
+<h2>: Menor importancia que el h1
+<h3>:Menor importancia que el h2
+...hasta el 6
+
+IMG:
+<img src="linkImagen" alt="Lindo gatito">
+<a href=""></a>
+
+[
+EXTENSIONES:
+
+~AUTO RENAME TAG
+~AUTO CLOSE TAG
+~LIVE SERVER
+~VSCODE ICONS
+]
+
+MULTIMEDIA:
+
+<figure>: encapsular una imagen con una descripcion
+<figure>
+    <img src="linkImagen" alt="Lindo gatito">
+<figcaption>Descripcion de la imagen</figcaption>
+
+</figure>
+
+INPUTS:
+
+<input type="text">
+muchos tipos...
+text,number,password,etc
+
+FORM
+SIEMPRE hay que usar un label
+
+<form action="">
+
+    <input type="text">
+
+<input type="password">
+</form>
+
+BUTTON
+<button>enviar</button>
+<input type="button">
+
+ETIQUETAS BASICAS HTLM
+
+~label:
+~for: asociar un input con algo (nombre por ejemplo)
+~placeholder:
+
+pre: deja el contenido tal cual esta escrito el formato
+<pre>
+
+<code>
+
+    function(nombre, apellido){
+
+console.log(`Hola ${nombre,apellido} como estas?`);
+</code>
+
+</pre>
+
+
+LISTAS:
+
+ul : listas punteada y li cada posicion
+ol : lista numerica y li cada posicion
+
+
+
+
+/----------------------CSS----------------------------/
+
+
+Es un lenguaje de hojas de estilo utilizado para CONTROLAR la presentacion y el disenio visual de documentos HTML y XML en una pagina web
+
+-Colores
+-Fuentes
+-Margenes
+-Espaciado
+-Tamanios de texto
+-Efectos Visuales
+-etc
+
+
+
+//--//--//--//--SINTAXIS//--//--//--//
+
+p{ --> (selector)
+
+(atributo)         (valor)
+background-color: grey;
+color:blue;
+etc...
+
+}
+
+SELECTOR:
+cada selector tiene una especificidad o prioridad o peso.
+
+
+seleccionar selector
+
+class = .nombreClase
+id = #id ES UNICO EN TODA LA PAGINA HTML (si queres repetir usa otro selector)
+div h1: todos los div que tengan dentro un h1
+
+
+
+
+//--//--//--//--UNIDADES//--//--//--//
+
+MEDIDAS ABSOLUTAS: siempre van a medir lo mismo
+-px
+-cm
+-mm
+-s
+TAMANIO FIJO
+
+MEDIDAS RELATIVAS: se apoyan en otra cosa
+-%
+-En fuentes 1rem === 10px
+
+
+
+
+
+
+-PADDING
+-MARGIN
+-WIDTH = ANCHO
+-HEIGHT = ALTO
+
+
+//--//--//--//--MARGIN//--//--//--//
+margen para afuera
+
+margin: 20px (todo los lados 20px)
+margin: 20px 20px (el primero para arriba y abajo y el segundo para derecha e izquierda)
+margin: 10px 20px 30px 40px(10px top, 20px right, 30px bottom, 40px left)
+
+margin: 0 auto; CENTRA ELEMENTOS
+
+Funciona cuando...
+-El elemento es tipo block
+
+
+
+//--//--//--//--PADDING//--//--//--//
+relleno interno margenes para adentro
+
+padding: 20px (todo los lados 20px)
+padding: 20px 20px (el primero para arriba y abajo y el segundo para derecha e izquierda)
+padding: 10px 20px 30px 40px(10px top, 20px right, 30px bottom, 40px left)
+
+//--//--//--//--COLORES//--//--//--//
+
+-Hexadecimal, RGB,HSL
+
+RGBA(red, green,brown,alpha)
+Hue.tools (paginas de colores)
+
+
+
+//--//--//--//--REGLA IMPORTANTE//--//--//--//
+
+html{
+
+    box-sizing:
+}
+
+//--//--//--//--:root//--//--//--//
+
+:root{
+
+--color-primario: blue;
+--color-secundario: green;
+--color-terceario: black;
+
+}
+
+declara variables basicamente
