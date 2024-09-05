@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: green;    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.padre{
+
+width: 0%;
+height: 600px;
+background-color: yellow;
+position: relative;
+margin: 0 auto;
+} */
+
+
+.pepito{
+
+position: sticky;
+background-color: black;
+color: white;
+top: 0;
+}
