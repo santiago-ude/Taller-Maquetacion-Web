@@ -1,0 +1,85 @@
+body {
+
+    padding: 0;
+    margin: 0;
+}
+
+.navegador {
+    background-color: blurgb(221, 220, 220);
+    width: 100%;
+    margin: auto;
+
+}
+
+.ul-lista {
+    
+    margin: auto;
+    text-align: center;
+
+}
+
+.li-lista  {
+
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none;
+
+}
+
+.li-lista a {
+
+    color: green;
+    text-decoration: none;
+
+}
+
+.li-lista a:hover {
+
+    color: green;
+    text-decoration: underline;
+
+}
+
+.encabezado {
+
+    background-color: rgb(40, 142, 201);
+    padding: 40px;
+
+
+}
+
+.white-font {
+
+    color: rgb(221, 220, 220);
+}
+
+
+.linkAprendeMas {
+
+    color: rgb(40, 142, 201);
+    text-decoration: none;
+    background-color: rgb(221, 220, 220);
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 10px;
+
+}
+
+.linkAprendeMas:hover {
+
+    text-decoration: underline;
+    color: rgb(221, 220, 220);
+    border-radius: 10px;
+    background-color: rgb(40, 142, 201);    
+}
+
+
+.hero {
+
+    margin: auto;
+    text-align: center;
+}
