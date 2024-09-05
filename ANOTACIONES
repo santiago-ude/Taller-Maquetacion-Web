@@ -254,3 +254,82 @@ html{
 }
 
 declara variables basicamente
+
+//--//--//--//--POSITION//--//--//--//
+Permite contolar como se va a posicionar la etiqueta en relacion a otros elementos secundarios y el flujo normal del documento
+Siempre que usamos position podemos afectar a 
+-Top
+-right
+-bottom
+-left
+
+<<<Static>>>:
+-valor predeterminado para todas las etiquetas
+-Se colocan en el flujo normal del documento.
+-No se usa top,right,bottom y left.
+-Todo es static hasta que digamos lo contrario
+
+<<<fixed>>> (fijo):
+-Fijo, se supermone (screnshot)
+-se puede usar top, left...etc
+
+
+...
+-Se posiciona en relacion con la ventana del navegador
+-Permanece en la misma posicion incluso cuando se desplaza la pagina
+-util para crear barras de navegacion
+-se puede usar top, left...etc
+
+<<<Absolut>>>:
+-Normalmente se usa con relative))
+-Es absoluto, no es fijo
+-Se superpone, pero cumple el comportamiento del static
+-
+------------
+CENTRADO
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); //resta 50% del div en el eje x y en el eje y
+------------
+
+<<<Relative>>>:
+-Normalmente se utilizan para los contenedores padres
+-Se establece un contexto de posicionamiento para sus elementos hijos
+-Se coloca en el flujo normal de documento
+-se puede usar top, left...etc
+
+
+<<<Sticky>>>:
+-Mezcla de relative y fixed
+-Queda pegado hasta que la section termina
+-   
+-
+-
+
+------------
+EFECTO QUE SE PISEN LOS ELEMENTOS
+
+Los h1 tienen la clase "pepito"
+.pepito{
+
+position: sticky;
+background-color: black;
+color: white;
+top: 0;
+}
+
+
+y ponerle section a cada h1 con sus p si se quiere que el efecto se pegue hasta que arranque la nueva section
+------------
+
+
+
+
+
+
+
+
+
+
+
