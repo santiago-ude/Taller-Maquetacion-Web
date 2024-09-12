@@ -1,0 +1,123 @@
+body {
+
+
+    font-family: "roboto", ;
+    font-size: 62.5%;
+}
+
+
+/*
+.main{
+
+display: flex; /*Por defecto row (en linea)*/
+/*flex-direction: row; /*Row en linea, column en columna*/
+/*flex-wrap: wrap; /*genera una especie de responsividad*/
+/*gap: 1rem; /*genera un espacio o gap entre los cuadrados*/
+/*background-color: grey;
+
+justify-content: center;/*central el contenido*/
+/*padding: 20px 0;
+}
+
+
+/*
+.cuadrado{
+
+width: 200px;
+height: 200px;
+background-color: aquamarine;
+
+}
+*/
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.imagen {
+
+    flex: 1;
+
+}
+
+.texto {
+
+    flex: 1;
+
+}
+
+.imagen img {
+
+    width: 100%;
+    border-radius: 10%;
+
+}
+
+.texto {
+
+    flex: 1;
+    text-align: center;
+
+}
+
+.texto p {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.texto a {
+
+    width: 2rem;
+    height: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+*/
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+.main {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.articulo-1 {
+
+    flex-basis: calc(50% - 1rem); /*Le resto el 1 rem por el gap que le voy a dejar*/
+
+}
+
+.articulo-2 {
+
+
+    flex-basis: calc(25% - 1rem);
+
+}
+
+.color-1 {
+
+    background-color: yellowgreen;
+
+}
+
+
+.color-2 {
+
+    background-color: pink;
+
+}
