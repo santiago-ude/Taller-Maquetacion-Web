@@ -303,9 +303,6 @@ CENTRADO
 <<<Sticky>>>:
 -Mezcla de relative y fixed
 -Queda pegado hasta que la section termina
--   
--
--
 
 ------------
 EFECTO QUE SE PISEN LOS ELEMENTOS
@@ -325,10 +322,27 @@ y ponerle section a cada h1 con sus p si se quiere que el efecto se pegue hasta 
 
 
 
+//---------------------------------------------------------------------------------------------------------------
+FLEXBOX:
+Modelo unidimensional
+GRID--> matriz
+FLEXBOX -->fila
+Se utiliza para crear diseños y distribuir elementos en una pagina web (layouts)
+
+flexbox--> EJES
+
+ºpodes colocar o distribuir tus elementos en una direccion ya sea fila o columna
+
+ºFila por default
+
+Por defecto: row
+
+ºrow o row-reverseº: los elementos hijos se colocaran uno al lado del otro.
 
 
 
-
+Propiedad Gap--> le dio un espacio a los 3 cuadrados
+Propiedad flex-Wrap -->genera una especie de responsividad
 
 
 
